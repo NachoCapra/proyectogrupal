@@ -16,7 +16,7 @@ body{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background:#5d5d5e;
+  background:#050507;
 }
 
 
@@ -24,11 +24,16 @@ body{
 form,
 h2{
   font-family: "Permanent Marker", cursive;
-}
-h2{
   font-size: 27px;
-  color: black;
+  color: white;
 }
+
+h4{
+  color: white;
+}
+
+
+
 
 /* Agregando Color al boton y ajustando su margen para estar despegado al form */
 .btn{
