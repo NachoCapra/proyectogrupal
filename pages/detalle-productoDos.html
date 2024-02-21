@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  <title>Detalle de Producto</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+
+  <header>
+    <!-- menu-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-fixed">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img class="logo" src="/img/logosinfondo.png" alt="logo" />Gamer
+          Center</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          style="background-color: rgb(250, 124, 78)"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <form class="d-flex me-auto" role="search">
+            <input
+              class="form-control me-3"
+              type="search"
+              placeholder="Buscar Productos . . ."
+              aria-label="Search"
+            />
+            <button
+              class="btn btn text-white"
+              style="background-color: orangered"
+              type="submit"
+            >
+              Buscar
+            </button>
+          </form>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-center">
+            <li class="nav-item me-3">
+              <a class="nav-link" href="/index.html"><strong>Inicio</strong></a>
+            </li>
+            <li class="nav-item me-3">
+              <a class="nav-link" href="/pages/contacto.html" target="_blank"
+                ><strong>Contacto</strong></a
+              >
+            </li>
+            <li class="nav-item me-3">
+              <a class="nav-link" href="/pages/acercade.html" target="_blank"
+                ><strong>Acerca De</strong></a
+              >
+            </li>
+          </ul>
+
+          <div
+            class="d-flex flex-column flex-lg-row justify-content-center align-items-center gap-3"
+          >
+            <a
+              href="/pages/login.html"
+              target="_blank"
+              class="text-white text-decoration-none px-3 py-1 gb-primary rounded-4"
+              style="background-color: orangered"
+              >Iniciar Sesion</a
+            >
+            <a
+              href="/pages/detalle-carrito.html"
+              class="text-white text-decoration-none px-3 py-1 gb-primary rounded-4"
+            >
+              <img class="logo" src="/img/imagencarrito1.png" alt="logo"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <section>
+    <nav
+      class="navbar navbar-expand-lg align-items-lg-center"
+      style="background-color: orangered"
+      text
+    >
+      <div class="container">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 all">
+            <li class="nav-item">
+              <a class="nav-link me-2" href="#titulo"
+                ><strong>ULTIMAS NOVEDADES</strong></a
+              >
+            </li>
+            <li class="nav-itemr">
+              <a class="nav-link me-2" href="#titulo2"
+                ><strong>MEJORES MARCAS - PUBLICIDAD</strong></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link me-5" href="#titulo3"
+                ><strong>PC ARMADAS</strong></a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                ><strong>CATEGORIAS / PRODUCTOS</strong>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Procesadores</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Mother</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Memorias RAM</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="pages/detalle-categoria.html">Placas de Video</a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="#">Almacenamiento</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Gabinetes</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Fuentes</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </section>
+
+
+<div class="container mt-4">
+  <!-- Producto 1 -->
+  <div class="card">
+    <img src="/img/placas-de-video-rx7600.jpg" class="card-img-top w-25 text-center m-auto" alt="Producto 1">
+    <div class="card-body">
+      <h5 class="card-title">AMD RADEON ASrock Phantom Gaming AMD RADEON RX7600 8GB GDDR6</h5>
+      <p class="card-text">Alcanza nuevos niveles de rendimiento con hasta 8 GB de memoria GDDR6 y velocidades de reloj ultrarrápidas para una experiencia de juego increíble. Las tarjetas gráficas Radeon™ RX 7600 cuentan con unidades de procesamiento avanzadas AMD RDNA™ 3, aceleradores de trazado de rayos de segunda generación y nuevos aceleradores de IA para ofrecer un rendimiento increíble y maximizar la fidelidad del contenido gráfico.</p>
+      <p>AMD Radeon RX Serie 7600 promedio FPS en 1080p con configuración máxima</p>
+      <p class="card-text">Precio: $445.000</p>
+      <a href="/pages/detalle-carrito.html" class="btn btn-primary">Comprar</a>
+    </div>
+  </div>
+
+  <!-- Sección de Comentarios -->
+  
+  <div class="mt-4 container">
+    <h2 class="text-center mt-5">Ultimos Comentarios</h2>
+
+    <div class="row justify-content-center">
+        <!-- Comentario 1 -->
+        <div class="col-md-4">
+            <div class="media mt-4 text-center">
+                <img src="/img/comentarioUno.jpg" width="180px" height="100px" class="mt-4" alt="Usuario 1">
+                <div class="media-body">
+                    <h5 class="mt-2">Juan Capria</h5>
+                    <p>Placa de gama media pero de gran rendimiento</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Comentario 2 -->
+        <div class="col-md-4">
+            <div class="media mt-4 text-center">
+                <img src="/img/comentarioDos.jpg" width="180px" height="100px" class="mt-4" alt="Usuario 2">
+                <div class="media-body">
+                    <h5 class="mt-2">Gisela Rodriguez</h5>
+                    <p>Sirve para los trabajos que realizo</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Comentario 3 -->
+        <div class="col-md-4">
+            <div class="media mt-4 text-center">
+                <img src="/img/comentarioTres.jpg" width="180px" height="100px" class="mt-4" alt="Usuario 3">
+                <div class="media-body">
+                    <h5 class="mt-2">Geronimo Robledo</h5>
+                    <p>Buena placa, ahora puedo jugar sin tirones en los juegos</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+<footer class="footer mt-5">
+  <div class="container h-100">
+    <hr />
+    <div
+      class="row text-white h-100 d-flex justify-content-center align-items-center"
+    >
+      <div class="logoFooter col-12 col-md text-center">
+        <!-- logo-->
+
+        <h2 style="color: black">
+          <a href="#"
+            ><img src="/img/logosinfondo.png" style="width: 80px" alt="logo"
+          /></a>
+          GAMER CENTER
+        </h2>
+      </div>
+      <div class="redesSociales col-12 col-md text-center">
+        <!-- redes sociales-->
+
+        <a href="/pages/404.html"
+          ><img src="/img/facebook.png" style="width: 80px" alt="logo"
+        /></a>
+        <a href="/pages/404.html"
+          ><img src="/img/instagram.png" style="width: 80px" alt="logo"
+        /></a>
+        <a href="/pages/404.html"
+          ><img src="/img/twiter.png" style="width: 80px" alt="logo"
+        /></a>
+        <a href="/pages/404.html"
+          ><img src="/img/whatsapp.png" style="width: 80px" alt="logo"
+        /></a>
+      </div>
+      <div class="detalles col-12 col-md text-center fw-bold">
+        <!-- lista de mas opciones-->
+        <br />
+        <p><a href="/pages/404.html" style="color: black"> Mision</a></p>
+        <p><a href="/pages/404.html" style="color: black"> Vision</a></p>
+        <p>
+          <a href="/pages/404.html" style="color: black">
+            Nuestros Inicios</a
+          >
+        </p>
+        <p>
+          <a href="/pages/404.html" style="color: black">
+            Trabaja con Nosotros !</a
+          >
+        </p>
+      </div>
+    </div>
+    <hr />
+
+    <div class="detalles col-12 col-md text-center fw-bold">
+      <!-- lista de mas opciones-->
+      <p>
+        &copy GRUPO 1, COMISION 93I - Todos los Derechos Reservados . . .
+        <a href="#"> Inicio</a>
+      </p>
+      <br />
+    </div>
+  </div>
+</footer>
+
+<script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+  crossorigin="anonymous"
+></script>
+</body>
+</html>
