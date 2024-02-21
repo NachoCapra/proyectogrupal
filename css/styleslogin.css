@@ -82,8 +82,8 @@ input:hover{
 }
 
 .login-form{
-  border: 2px solid #050507;
-  padding: 60px;
-  box-shadow: 5px 5px 4px 4px #FD611A;
+  /* border: 2px solid #050507; */
+  padding: 0px 60px;
+  box-shadow: 3px 2px 1px 1px #FD611A;
   color: white;
 }
