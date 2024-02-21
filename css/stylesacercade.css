@@ -1,0 +1,31 @@
+body{
+  background-color:black;
+}
+
+.titulo{
+  text-align: center;
+  color: #FD611A;
+}
+
+.fotoPerfil{
+  width: 200px;
+  border-radius: 300px;
+}
+
+.contenedorDeImagen{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.tarjetaDeImagen{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background-color: #FD611A;
+  color: black;
+  border-radius: 20px;
+  text-align: center;
+  margin: 15px;
+}

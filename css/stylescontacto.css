@@ -1,0 +1,80 @@
+/* COLORES */
+/* Naranja: FD611A */
+/* Negro : Black */
+
+/* Fuente */
+/* font-family: "Permanent Marker", cursive; */
+
+
+
+/* ------------------------INICIO CSS (CONTACTO - JUAN IGNACIO CAPRA)------------------------ */
+
+
+
+/* Propiedades por defecto */
+body{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background: #5d5d5e;
+}
+
+
+/* Agregando el tipo de fuente a el formulario y al h2 */
+form,
+h2{
+  font-family: "Permanent Marker", cursive;
+}
+h2{
+  font-size: 27px;
+  color: black;
+}
+
+/* Agregando Color al boton y ajustando su margen para estar despegado al form */
+.btn{
+  background-color: #FD611A;
+  border: none;
+  color: black;
+  width: 100%;
+  margin-top: 20px;
+  font-family: "Permanent Marker", cursive;
+}
+
+
+/* Hover con una transicion de 0.5s para que al pasar el mouse por el boton se inviertan los colores */
+.btn:hover{
+  background-color: black;
+  color: #FD611A;
+  transition: 0.5s ease-in;
+}
+
+/* Dandole borde con el color naranja al input del form */
+input:hover{
+  border: 0.5px solid #FD611A;
+}
+
+/* Margen al iframe para la version mobile, asi no queda pegado al boton */
+.iframe{
+  margin-top: 20px;
+}
+
+.contacto-bg{
+  background-color: #050507;
+}
+
+
+
+/* -------------------ERROR 404------------------- */
+
+.bg-error{
+  background-image: url(/img/404img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.background-body{
+  background-color: #050507;
+}
+
